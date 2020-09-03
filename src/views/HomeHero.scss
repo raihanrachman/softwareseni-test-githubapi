@@ -1,8 +1,7 @@
 
 
 $background-color: #f4f4f4;
-$primary-color: #021A03;
-$secondary-color: #8EED95;
+
 
 *{
   margin: 0;
@@ -13,13 +12,11 @@ body{
 }
 
 .wrapper{
-  // background-color: $primary-color;
   margin: 0 auto;
   width: 100vw - 6.6vw;
   height: calc(100vh - 6.6vw);
 
   &-top{
-    // background-color: $secondary-color;
     margin: 0 auto;
     width: 50%;
     height: 20%;
@@ -28,7 +25,6 @@ body{
     justify-content: center;
   }
   &-bottom{
-    // background-color: $background-color;
     margin: 0 auto;
     width: 50%;
     height: 80%;
